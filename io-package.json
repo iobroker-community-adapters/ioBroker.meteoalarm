@@ -161,6 +161,7 @@
       }
     ],
     "stopBeforeUpdate": true,
+    "allowInit": true,
     "plugins": {
       "sentry": {
         "dsn": "https://336269261940428d9f3093e61a6e06c6@sentry.iobroker.net/124"
