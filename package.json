@@ -52,6 +52,7 @@
     "admin{,/!(src)/**}/*.{html,css,png,svg,jpg,js}",
     "lib/",
     "www/",
+    "meteoalarm/",
     "io-package.json",
     "LICENSE",
     "main.js"
