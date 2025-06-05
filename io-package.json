@@ -122,36 +122,45 @@
             "zh-cn": "欧洲所有国家的极端天气警报来自meteoalarm.org"
         },
         "authors": [
-            "Jack <blacksonj7@gmail.com>"
+            "Jack <blacksonj7@gmail.com>",
+            "mcm1957 <iobroker-community-adapters@gmx.de>",
+            "iobroker-community-adapters <iobroker-community-adapters@gmx.de>"
+        ],
+        "keywords": [
+            "meteoalarm"
         ],
         "licenseInformation": {
             "license": "MIT",
             "type": "free"
-          },
+        },
         "platform": "Javascript/Node.js",
-        "mode": "schedule",
-        "schedule": "*/10 * * * *",
-        "dependencies": [
-            {
-                "js-controller": ">=5.0.19"
-            }
-        ],
-        "enabled": true,
-        "compact": true,
-        "readme": "https://github.com/jack-blackson/ioBroker.meteoalarm/blob/master/README.md",
-        "loglevel": "info",
-        "stopBeforeUpdate": true,
-        "keywords": [
-            "meteoalarm"
-        ],
         "icon": "meteoalarm.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.meteoalarm/master/admin/meteoalarm.png",
+        "readme": "https://github.com/iobroker-community-adapters/ioBroker.meteoalarm/blob/master/README.md",
+        "loglevel": "info",
         "materialize": true,
-        "extIcon": "https://raw.githubusercontent.com/jack-blackson/ioBroker.meteoalarm/master/admin/meteoalarm.png",
+        "tier": 2,
+        "mode": "schedule",        
+        "schedule": "*/10 * * * *",
         "type": "weather",
+        "compact": true,
         "connectionType": "cloud",
         "dataSource": "poll",
-        "tier": 2,
-        "singletonHost": false,
+        "adminUI": {
+            "config": "materialize",
+        },
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=7.4.10"
+            }
+        ],
+        "stopBeforeUpdate": true,
         "plugins": {
             "sentry": {
                 "dsn": "https://336269261940428d9f3093e61a6e06c6@sentry.iobroker.net/124"
@@ -199,9 +208,6 @@
                 ]
             }
         ]
-    },
-    "adminUI": {
-        "config": "materialize"
     },
     "native": {
         "interval": 120000,
