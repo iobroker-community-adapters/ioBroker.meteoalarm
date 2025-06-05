@@ -37,7 +37,7 @@ Bell in icon designed by Freepik from www.flaticon.com
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
+### 4.0.0-alpha.0 (2025-06-05)
 * (mcm1957) Adapter has been migrated to iobroker-community-adapters organisation.
 * (mcm1957) Adapter requires node.js 20, js-controller 6.0.11 and admin 7.4.10 now.
 * (mcm1957) @iobroker/eslint-config has been added and linter error have been fixed.
@@ -76,7 +76,7 @@ Bell in icon designed by Freepik from www.flaticon.com
 
 ### 2.3.3 (2023-02-09)
 * (jack-blackson) Added possibility to define the alarm levels for the widget, JSON and notification
-* (jack-blackson) Added ukrainian language 
+* (jack-blackson) Added ukrainian language
 
 ### 2.3.2 (2023-01-07)
 * (jack-blackson) Bugfix to clean up alerts correctly
@@ -174,57 +174,78 @@ Bell in icon designed by Freepik from www.flaticon.com
 
 ### 1.1.9 (2021-05-07)
 * (jack-blackson) Package Updates
+
 ### 1.1.5 (2021-05-02)
 * (jack-blackson) Bugfix JS-Controller 3.3.1 errors, error handling no language defined
+
 ### 1.1.4 (2021-04-05)
 * (jack-blackson) Handle ENOTFOUND error message, added Sentry
+
 ### 1.1.3 (2021-03-29)
 * (jack-blackson) Error fixes adapter checker
+
 ### 1.1.2 (2021-03-29)
 * (jack-blackson) Bugfix for not working data update, removed link autogeneration due to CORS errors
+
 ### 1.1.1 (2020-10-28)
 * (jack-blackson) Bugfix HTML Data
+
 ### 1.1.0 (2020-03-29)
 * (jack-blackson) Bugfix Germany
+
 ### 1.0.9 (2020-02-06)
 * (jack-blackson) Bugfix Germany
+
 ### 1.0.8 (2019-11-15)
 * (jack-blackson) Added Poland, Moldova, Greece, Romania
 * (jack-blackson) Added new Datapoint to get Link to Weather Map
+
 ### 1.0.7 (2019-11-13)
 * (jack-blackson) Added Czech Republic, Ireland, Israel, Lithuania, Latvia, Montenegro, Malta, Serbia, Sweden
+
 ### 1.0.6 (2019-10-19)
 * (jack-blackson) Added Switzerland & Slowakia
+
 ### 1.0.5 (2019-09-22)
 * (jack-blackson) Small logging adjustments
+
 ### 1.0.4 (2019-09-11)
 * (jack-blackson) Travis error
+
 ### 1.0.3 (2019-09-09)
 * (jack-blackson) Small bugfixes, change from type "deamon" to "schedule"
+
 ### 1.0.2 (2019-08-25)
 * (jack-blackson) Reordered release infos
+
 ### 1.0.1 (2019-08-18)
 * (jack-blackson) Bugfix no alarm icon
+
 ### 1.0.0 (2019-08-12)
 * (jack-blackson) Release version
+
 ### 0.6.0 (2019-08-05)
 * (jack-blackson) Store weather icons local in adapter
+
 ### 0.5.0 (2019-07-21)
 * (jack-blackson) Handle Timeouts
 * (jack-blackson) Translations for all languages
 * (jack-blackson) URL checks
+
 ### 0.4.0 (2019-07-20)
 * (jack-blackson) Added data for NL,NO,HR,FI,ES
 * (jack-blackson) Added Type Text, Type is now empty if Level is 1 (No Warning)
 * (jack-blackson) Adjusted colors
+
 ### 0.3.0 (2019-07-13)
 * (jack-blackson) Added HTML Widget
 * (jack-blackson) Bugfix icon
+
 ### 0.2.0 (2019-07-12)
 * (jack-blackson) Added "Tomorrow" data
+
 ### 0.1.0 (2019-07-11)
 * (jack-blackson) initial version
-
 
 ## License
 The MIT License (MIT)
