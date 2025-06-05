@@ -35,8 +35,14 @@ Bell in icon designed by Freepik from www.flaticon.com
 
 <!--
 	Placeholder for the next version (at the beginning of the line):
-	### **WORK IN PROGRESS**0
+	### **WORK IN PROGRESS**
 -->
+### **WORK IN PROGRESS**
+* (mcm1957) Adapter has been migrated to iobroker-community-adapters organisation.
+* (mcm1957) Adapter requires node.js 20, js-controller 6.0.11 and admin 7.4.10 now.
+* (mcm1957) @iobroker/eslint-config has been added and linter error have been fixed.
+* (mcm1957) Dependencies have been updated.
+
 ### 3.0.3 (2024-08-11)
 * (jack-blackson) Updated repositories
 * (jack-blackson) Small adjustments in package settings
