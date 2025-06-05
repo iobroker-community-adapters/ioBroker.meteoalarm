@@ -23,17 +23,27 @@ Choose your country, and afterwards the region you want the warnings for. If you
 [Deutsche Anleitung](docs/de/meteoalarm.md)
 
 
+## Credits
+
+This adapter would not have been possible without the great work of @jack-blackson (https://github.com/jack-blackson)",
+who created pre V4.x.x releases of this adapter.
+
+Bell in icon designed by Freepik from www.flaticon.com
+
+
 ## Changelog
 
+<!--
+	Placeholder for the next version (at the beginning of the line):
+	### **WORK IN PROGRESS**0
+-->
 ### 3.0.3 (2024-08-11)
 * (jack-blackson) Updated repositories
 * (jack-blackson) Small adjustments in package settings
 
-
 ### 3.0.2 (2024-02-24)
 * (jack-blackson) Bugfix for notification text - missing space
 * (jack-blackson) Bugfix for notification text - fix to just show "warning level in words" in the notification if it is ticked in the setup
-
 
 ### 3.0.1 (2024-02-29)
 * (jack-blackson) Bugfix for location names
@@ -209,13 +219,11 @@ Choose your country, and afterwards the region you want the warnings for. If you
 ### 0.1.0 (2019-07-11)
 * (jack-blackson) initial version
 
-## Credits
-Bell in icon designed by Freepik from www.flaticon.com
-
 
 ## License
 The MIT License (MIT)
 
+Copyright (c) 2025, iobroker-community-adapters <iobroker-community-adapters@gmx.de>  
 Copyright (c) 2019-2024 jack-blackson <blacksonj7@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
