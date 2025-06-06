@@ -1,6 +1,6 @@
 {
   "name": "iobroker.meteoalarm",
-  "version": "4.0.0-alpha.3",
+  "version": "4.0.0",
   "description": "Meteolaram",
   "author": {
     "name": "jack_blackson",
