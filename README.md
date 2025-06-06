@@ -37,7 +37,7 @@ Bell in icon designed by Freepik from www.flaticon.com
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
-### 4.0.0-alpha.3 (2025-06-05)
+### **WORK IN PROGRESS**
 * (mcm1957) Adapter has been migrated to iobroker-community-adapters organisation.
 * (mcm1957) Adapter requires node.js 20, js-controller 6.0.11 and admin 7.4.10 now.
 * (mcm1957) @iobroker/eslint-config has been added and linter error have been fixed.
