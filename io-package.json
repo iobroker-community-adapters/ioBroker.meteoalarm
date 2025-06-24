@@ -1,8 +1,21 @@
 {
   "common": {
     "name": "meteoalarm",
-    "version": "4.0.0",
+    "version": "4.0.1",
     "news": {
+      "4.0.1": {
+        "en": "Invalid dependency has been removed.\nDependencies have been updated.",
+        "de": "Invalide Abhängigkeit wurde entfernt.\nAbhängigkeiten wurden aktualisiert.",
+        "ru": "Недействительная зависимость была устранена.\nЗависимости были обновлены.",
+        "pt": "A dependência inválida foi removida.\nAs dependências foram atualizadas.",
+        "nl": "Ongeldige afhankelijkheid is verwijderd.\nAfhankelijkheden zijn bijgewerkt.",
+        "fr": "La dépendance non valide a été supprimée.\nLes dépendances ont été actualisées.",
+        "it": "La dipendenza non valida è stata rimossa.\nLe dipendenze sono state aggiornate.",
+        "es": "Se ha eliminado la dependencia inválida.\nSe han actualizado las dependencias.",
+        "pl": "Nieprawidłowa zależność została usunięta.\nZaktualizowano zależność.",
+        "uk": "Видалено неточну залежність.\nОновлено залежність.",
+        "zh-cn": "无效的依赖已被删除 .\n附属关系已经更新."
+      },
       "4.0.0": {
         "en": "Adapter has been migrated to iobroker-community-adapters organisation.\nAdapter requires node.js 20, js-controller 6.0.11 and admin 7.4.10 now.\n@iobroker/eslint-config has been added and linter error have been fixed.\nDependencies have been updated.",
         "de": "Adapter wurde in die iobroker-community-adapters Organisation migriert.\nAdapter erfordert jetzt node.js 20, js-controller 6.0.11 und admin 7.4.10.\n@iobroker/eslint-config wurde hinzugefügt und Linterfehler behoben.\nAbhängigkeiten wurden aktualisiert.",
