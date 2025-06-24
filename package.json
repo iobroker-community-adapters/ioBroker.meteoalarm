@@ -25,7 +25,6 @@
     "node": ">=20.0.0"
   },
   "dependencies": {
-    "@iobroker/testing": "^4.1.1",
     "@iobroker/adapter-core": "^3.2.3",
     "@sentry/integrations": "^6.17.3",
     "@sentry/node": "^6.17.3",
