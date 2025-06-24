@@ -43,7 +43,7 @@
     "@iobroker/eslint-config": "^2.0.2",
     "@iobroker/testing": "^5.0.4",
     "chai": "^4.2.0",
-    "mocha": "^11.5.0"
+    "mocha": "^11.7.0"
   },
   "main": "main.js",
   "files": [
