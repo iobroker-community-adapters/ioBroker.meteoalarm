@@ -139,7 +139,6 @@
     "extIcon": "https://raw.githubusercontent.com/iobroker-community-adapters/ioBroker.meteoalarm/master/admin/meteoalarm.png",
     "readme": "https://github.com/iobroker-community-adapters/ioBroker.meteoalarm/blob/master/README.md",
     "loglevel": "info",
-    "materialize": true,
     "tier": 2,
     "mode": "schedule",
     "schedule": "*/10 * * * *",
