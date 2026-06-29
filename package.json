@@ -19,7 +19,7 @@
     "url": "https://github.com/iobroker-community-adapters/ioBroker.meteoalarm"
   },
   "engines": {
-    "node": ">=20.0.0"
+    "node": ">=22.0.0"
   },
   "dependencies": {
     "@iobroker/adapter-core": "^3.2.3",
